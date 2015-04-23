@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HttpDump</title>
+</head>
+<body>
+	<form action="dump" method="post">
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Text fields</h1>
+		First name: <input type="text" name="fname"><br /> 
+		Last name: <input type="text" name="lname">
+		<br />
+		<br />
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Textarea</h1>
+		<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+		<br />
+		<br />
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Password field</h1>
+		Password:<input type="password" value="" name="mypassword" maxlength="10" size="10" />
+		<br />
+		<br />
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Radio Buttons</h1>
+		<input type="radio" name="title" value="mr" />Mr.<br /> <input
+			type="radio" name="title" value="ms" />Ms.<br /> <input
+			type="radio" name="title" value="decline" checked="checked" />decline<br />
+		<br />
+		<br />
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Checkboxes</h1>
+		<input type="checkbox" name="checkbox1" />Choice 1<br /> 
+		<input type="checkbox" name="checkbox2" checked="checked" />Choice 2<br />
+		<input type="checkbox" name="checkbox2" value="c2" />Choice 2<br />
+		<input type="checkbox" name="checkbox2" value="c2" />Choice 2<br />
+		<input type="checkbox" name="checkbox3" value="c3" />Choice 3<br />
+		<br />
+		<br />
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Select</h1>
+		<select name="computerbrands" multiple="multiple">
+			<option value="DELL" selected="selected">DELL</option>
+			<option value="IBM">IBM</option>
+			<option value="HP">HP</option>
+			<option value="Compaq">Compaq</option>
+			<option value="Sony">Sony</option>
+		</select>
+ 
+		<br />
+		<br /> 
+ 
+		<select name="cars">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+		</select>
+		<br />
+		<br />
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Hidden fields</h1>
+		<input type="hidden" name="computerType" value="DELL" /> <input
+			type="hidden" name="computerOS" value="WIN2K" />
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Buttons</h1>
+		<button type="button" name="button" value="click">Click Me!</button>
+		<br />
+		<br />
+ 
+		<!--  ---------------------------------------------------------------------- -->
+		<h1>Submit Buttons</h1>
+		<input type="submit" name="submitbutton" value="add" /> 
+		<input type="submit" name="submitbutton" value="sub" /> 
+		<input type="submit" name="submitbutton" value="mul" />
+		<input type="submit" name="submitbutton" value="div" />
+ 
+	</form>
+</body>
+</html>

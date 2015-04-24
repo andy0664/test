@@ -14,13 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public class Calculator extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
-	/*
-	 * dasfasdf
-	 * asdfa
-	 * dsfadf
-	 * adf
-	 * asdf
-	 */
+	
     /**
      * @see HttpServlet#HttpServlet()
      */
